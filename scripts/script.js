@@ -124,10 +124,10 @@ function addDays() {
 }
 
 function saveDays() {
-    localStorage.setItem("setup@habits", JSON.stringify(nlwSetup.data));
+    localStorage.setItem("setupDays@habits", JSON.stringify(nlwSetup.data));
 }
 
-const data = JSON.parse(localStorage.getItem("setup@habits")) || {}
+const data = JSON.parse(localStorage.getItem("setupDays@habits")) || {}
 nlwSetup.setData(data);
 nlwSetup.load();
 /* Fim da renderização de dias e checkboxes via NLWSetup */
