@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 24px 48px;
+
+  position: fixed;
+  width: 100%;
+  background-color: #09090A;
+  z-index: 100;
+}
+
+#new-day-buton {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 16px 8px;
+  border: 1px solid #8b5cf6;
+  border-radius: 8px;
+  background-color: transparent;
+  color: white;
+
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+@media (min-width: 470px) {
+  #new-day-buton {
+    padding: 16px 24px;
+  }
+}

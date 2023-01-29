@@ -1,0 +1,92 @@
+#form-habits {
+  display: flex;
+  padding: 136px 48px 30px;
+  width: fit-content;
+  position: relative;
+}
+
+.habits {
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.habit {
+  width: 64px;
+  height: 64px;
+  font-size: 32px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; 
+  width: 64px;
+  position: relative;
+}
+
+.day div {
+  margin-bottom: 8px;
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  line-height: 125%;
+  color: #A1A1AA;
+  text-align: center;
+}
+
+.day input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 64px;
+  border:2px solid #27272A;
+  border-radius: 8px;
+  background-color: #18181B;
+}
+
+.day input:checked {
+  background-color:#8B5CF6;
+  border: 2px solid #A78BFA;
+}
+
+.block-input {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+#add-habit-button {
+  position: absolute;
+  bottom: -60px;
+  display: flex;
+  gap: 12px;
+  padding: 20px;
+
+  background-color: transparent;
+  border: 1px solid #8b5cf6;
+  border-radius: 8px;
+
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#add-habit-button p {
+  white-space: nowrap;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+    rel="stylesheet"
+  />
+
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Habits</title>
+  <link rel="icon" href="./assets/logo.svg"/>
+
+  <link rel="stylesheet" href="./styles/general.css" />
+  <link rel="stylesheet" href="./styles/header.css" />
+  <link rel="stylesheet" href="./styles/form.css" />
+  <link rel="stylesheet" href="./styles/overlay.css"/>
+</head>
+<body>
+  <header>
+    <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits" />
+    <button id="new-day-buton" class="hidden">
+      <!-- <img src="./assets/plus-icon.svg" alt="Ícone sinal de mais roxo" /> -->
+      <p>Novo dia</p>
+    </button>
+  </header>
+
+  <form id="form-habits">
+    <div id="habits-container" class="habits">
+    </div>
+
+    <div class="days">
+      <div class="day">
+        <div class="block-input"></div>
+      </div>
+    </div>
+
+    <button id="add-habit-button">
+      <img src="./assets/plus-icon.svg" alt="Ícone sinal de mais roxo"/>
+      <p>Adicionar novo hábito</p>
+    </button> 
+  </form>
+
+  <div id="overlay" class="hidden">
+    <form class="creation-box">
+      <h2>CRIAÇÃO DE HÁBITO</h2>
+
+      <!-- For future upgrade, where the user will inform the habit name -->
+
+      <!-- <div class="name-box">
+        <P>Digite o nome do hábito:</P>
+        <input/>
+      </div> -->
+
+      <div class="icon-box">
+        <p>Selecione um icone para o hábito</p>
+        <div id="icons-container">
+          <!-- Insert icons here with JavaScript -->
+        </div>
+      </div>
+      <div id="creation-habit-buttons">
+        <button id="create-habit-button">Criar</button>
+        <button id="cancel-create-habit-button">Cancelar</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="./scripts/NLWSetup.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
