@@ -185,7 +185,7 @@ function uncheckRadio() {
 }
 
 function hideAddButton(){
-    if(document.querySelectorAll(".habit").length >= 7) {
+    if(document.querySelectorAll(".habit").length >= 10) {
         addButton.classList.add("hidden");
     }else if (addButton.className === "hidden") {
         addButton.classList.remove("hidden");
@@ -201,5 +201,6 @@ function hideHeaderButton() {
     return;
 }
 
+hideAddButton();
 hideHeaderButton();
 /* Fim dos ajustes de visual */
