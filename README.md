@@ -9,13 +9,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 💻 Projeto
 
-O Habits é um app para rastrear hábitos.
+O Habits é um app para rastrear hábitos, baseado no projeto apresentado na NLWSetup da Rocketseat. O intuito inicial é praticar e conhecer elementos
+da programção front-end.
 
 -[Acesse o projeto online] (https://zpablocastro.github.io/Habit-Tracker/)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença Licença
 
